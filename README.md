@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">
 <img width="300" src="./public/images/logo.svg" />    
 </h1>
@@ -129,3 +130,6 @@ Thank you, JetBrains for sponsoring the license ❤️
 ## 🔖 License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/hisabi-app/hisabi/blob/main/LICENSE) file for details.
+=======
+# Finance-Traker-feat.-life.ofadu-
+>>>>>>> 3e9092d31f92a246a1ab10d993490d3155253867

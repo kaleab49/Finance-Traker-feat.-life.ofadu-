@@ -4,7 +4,7 @@ import Guest from '@/Layouts/Guest';
 import Input from '@/Components/Global/Input';
 import Label from '@/Components/Global/Label';
 import ValidationErrors from '@/Components/Global/ValidationErrors';
-import { Head, useForm } from '@inertiajs/inertia-react';
+import { Head, useForm, Link } from '@inertiajs/inertia-react';
 
 export default function Login({ status }) {
     const { data, setData, post, processing, errors, reset } = useForm({
@@ -64,7 +64,13 @@ export default function Login({ status }) {
                     />
                 </div>
 
-                <div className="flex items-center justify-end mt-4">
+                <div className="flex items-center justify-between mt-4">
+                    <Link
+                        href={route('register')}
+                        className="text-sm text-indigo-600 hover:text-indigo-500"
+                    >
+                        Don't have an account? Sign up
+                    </Link>
                     <Button className="ml-4" processing={processing}>
                         Log in
                     </Button>
